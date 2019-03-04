@@ -11,5 +11,6 @@ action "Install" {
 action "Deploy" {
   needs = "Install"
   uses = "actions/npm@master"
-  args = "run deploy"
+  args = "run deploy",
+  secrets = ["GITHUB_TOKEN"]
 }
