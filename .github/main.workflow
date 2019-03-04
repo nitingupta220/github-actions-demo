@@ -1,16 +1,26 @@
-workflow "Build and Deploy" {
+workflow "Build and deploy" {
   on = "push"
   resolves = ["Deploy"]
 }
 
 action "Install" {
-  uses = "actions/npm@master"
+  uses = "actions/npm@e7aaefe"
   args = "install"
 }
 
+action "Build" {
+  uses = "actions/npm@e7aaefe"
+  args = "run build"
+  needs = ["Install"]
+}
+
 action "Deploy" {
-  needs = "Install"
-  uses = "actions/npm@master"
-  args = "run deploy",
-  secrets = ["GITHUB_TOKEN"]
+  uses = "nchaulet/github-action-gh-pages@master"
+  secrets = [
+    "GITHUB_TOKEN",
+  ]
+  needs = ["Build"]
+  env = {
+    PUBLIC_PATH = "build"
+  }
 }
