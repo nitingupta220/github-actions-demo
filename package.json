@@ -5,9 +5,9 @@
   "homepage": "https://nitingupta220.github.io/github-actions-demo",
   "dependencies": {
     "gh-pages": "^2.0.1",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
