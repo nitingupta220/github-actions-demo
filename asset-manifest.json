@@ -1,14 +1,16 @@
 {
-  "main.css": "/github-actions-demo/static/css/main.3e329f46.chunk.css",
-  "main.js": "/github-actions-demo/static/js/main.e5f488bd.chunk.js",
-  "main.js.map": "/github-actions-demo/static/js/main.e5f488bd.chunk.js.map",
-  "runtime~main.js": "/github-actions-demo/static/js/runtime~main.e1602ef7.js",
-  "runtime~main.js.map": "/github-actions-demo/static/js/runtime~main.e1602ef7.js.map",
-  "static/js/2.5bf9b2cd.chunk.js": "/github-actions-demo/static/js/2.5bf9b2cd.chunk.js",
-  "static/js/2.5bf9b2cd.chunk.js.map": "/github-actions-demo/static/js/2.5bf9b2cd.chunk.js.map",
-  "index.html": "/github-actions-demo/index.html",
-  "precache-manifest.7e6beae1d5325f38615186399257e300.js": "/github-actions-demo/precache-manifest.7e6beae1d5325f38615186399257e300.js",
-  "service-worker.js": "/github-actions-demo/service-worker.js",
-  "static/css/main.3e329f46.chunk.css.map": "/github-actions-demo/static/css/main.3e329f46.chunk.css.map",
-  "static/media/logo.svg": "/github-actions-demo/static/media/logo.5d5d9eef.svg"
+  "files": {
+    "main.css": "/github-actions-demo/static/css/main.584f321a.chunk.css",
+    "main.js": "/github-actions-demo/static/js/main.206ce2eb.chunk.js",
+    "main.js.map": "/github-actions-demo/static/js/main.206ce2eb.chunk.js.map",
+    "runtime~main.js": "/github-actions-demo/static/js/runtime~main.f2d7db91.js",
+    "runtime~main.js.map": "/github-actions-demo/static/js/runtime~main.f2d7db91.js.map",
+    "static/js/2.6efc73d3.chunk.js": "/github-actions-demo/static/js/2.6efc73d3.chunk.js",
+    "static/js/2.6efc73d3.chunk.js.map": "/github-actions-demo/static/js/2.6efc73d3.chunk.js.map",
+    "index.html": "/github-actions-demo/index.html",
+    "precache-manifest.c8d9fb4bd2383f1bbee978432a643059.js": "/github-actions-demo/precache-manifest.c8d9fb4bd2383f1bbee978432a643059.js",
+    "service-worker.js": "/github-actions-demo/service-worker.js",
+    "static/css/main.584f321a.chunk.css.map": "/github-actions-demo/static/css/main.584f321a.chunk.css.map",
+    "static/media/logo.svg": "/github-actions-demo/static/media/logo.5d5d9eef.svg"
+  }
 }
